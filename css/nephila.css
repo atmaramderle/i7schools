@@ -1,0 +1,552 @@
+@font-face {
+font-family:'consola';
+src: url('consola.ttf') format('truetype');}
+
+/*-------------------- font -----------------------*/
+@font-face
+{
+font-family:Conduit ITC Light Light;
+src:url('Conduit ITC Light Light.otf') format('Opentype');
+}
+
+@font-face
+{
+font-family:Conduit ITC Light;
+src:url('Conduit ITC Light.otf') format('Opentype');
+}
+
+@font-face
+{
+font-family:Conduit ITC;
+src:url(Conduit ITC.otf);
+}
+
+@font-face
+{
+font-family:Conduit ITC Light_0;
+src:url(Conduit ITC Light.otf);
+}
+
+@font-face
+{
+font-family: Conduit ITC Light;
+src: url(Conduit%20ITC_0.otf);
+}
+
+@font-face
+{
+font-family: Sansation_Bold;
+src:url(Sansation_Bold.ttf)
+}
+
+@font-face
+{
+font-family: HelveticaNeue;
+src:url(HelveticaNeue.otf);
+}
+
+.font_light{ font-family:'Conduit ITC Light Light', Arial, sans-serif !important; }
+.font_regular{ font-family: Conduit ITC, Arial, sans-serif; }
+.font_regular{ font-family: Conduit ITC Light, Arial, sans-serif; }
+.font_bold{ font-family: 'Sansation_Bold', Arial, sans-serif; }
+.font_Neue{ font-family: 'BahamasHeavy', Arial, sans-serif; }
+/*------------------------------ font end ----------------------------*/
+
+body{margin:0px; padding:0px; color:#525252; font-family:Conduit ITC Light, Arial, Helvetica, sans-serif; font-size:12px; line-height:18px;background:url(../images/bg.jpg) no-repeat;background-size:100% auto; background-repeat: no-repeat; background-position: center top; max-width:100%;}
+
+img{border:0px;}
+.clr{ clear:both;}
+.header-inner{ padding:0px;}
+.min_social{ float:right; margin:15px 0px;}
+.top-login{ display:inline-block; margin-right:15px;}
+.tlogin_text{font-family:'"Conduit ITC Light"' !important;font-size:14px !important; color:#a1a1a1 !important; margin:0px 8px; border-radius:5px !important; height:24px !important; padding:2px 5px !important; max-width:110px;  border:1px solid #a2a2a2 !important; box-shadow:none !important;}
+.tlogin_but{ border:none; background-color:#025ca8; padding:5px 8px; color:#fff; border-radius:5px; font-family:Conduit ITC Light; font-weight:bold;}
+.top-header{ background-color:#fff; border-bottom:4px solid #ebae1f; position:fixed; z-index:999; width:100%;}
+.connect-withus-icon{ display:inline-block; padding-top:6px; padding-right:5px; transition: all 0.4s ease-in-out 0s;}
+.connect-withus-icon:hover{
+    transform: translate(0px, -5px);
+    -webkit-transform: translate(0px, -5px);
+    -moz-transform: translate(0px, -5px);
+    -o-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+
+}
+
+.main-logo{ padding:5px 0px;/* float:left;*/}
+.main-right-menu{float:right; position:relative; width:100%;}
+.content{ color: #5A6063; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 13px; line-height: 20px; margin-bottom: 10px;}
+.contmin{ background-color:#fff; /*top:100px;*/ position:relative;}
+.slide_but { position: absolute; z-index: 99; margin-top:410px;}
+.wh_nephila{ max-width:397px; max-height:102px; opacity:0.9; border-radius:10px; text-align:center; line-height:80px; float:left; padding:22px 20px 22px 45px; margin:0px 15px 20px 0px; background:#025ca7 url(../images/video_but.png) no-repeat; background-position:25px 36px;}
+.wh_nephila a{color: #fff; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 45px; transition: all 0.4s ease-in-out 0s;}
+.wh_nephila a:hover{color: #b8defe; opacity:1; text-decoration:none;}
+.the_nephila{ max-width:350px; max-height:102px; background-color:#e1ab2b; opacity:0.9; border-radius:10px;  line-height: 40px;
+float:left; padding:22px 35px 22px 25px; margin:0px 10px 20px 0px;}
+.the_nephila a{color: #fff; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 40px; transition: all 0.4s ease-in-out 0s;}
+.the_nephila a:hover{color: #fce6b1; opacity:1; text-decoration:none;}
+.startfree_but{ background:url(../images/startfree_but.png) no-repeat; max-width:113px; height:83px; text-align:center; line-height: 28px;float:left; padding:31px 8px 20px;}
+.startfree_but a{color: #fff; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 28px; transition: all 0.4s ease-in-out 0s;}
+.startfree_but a:hover{color: #fac8bd; opacity:1; text-decoration:none;}
+.playbt{ color:#fff; font-size:50px; margin-right:55px;}
+
+.top_title{color: #000; font-family:Conduit ITC Light, sans-serif; font-style:normal; font-size: 48px; text-align:center; margin:30px 0px 5px; line-height:72px;}
+.top_text{color: #030303; font-family: Conduit ITC Light_0, sans-serif; font-style:normal; font-size: 18px; text-align:center; line-height:22px;}
+.platform{ text-align:center; margin:20px 0px;}
+
+.scales_title{color: #010101; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 28px; text-align:center; margin:10px 0px 20px;}
+.scales{ text-align:center;}
+.scales_text{ text-align:center; margin:10px 0px ; color: #000; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 18px;}
+.scales_text1{ text-align:center; margin:10px 0px 30px; color: #000; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 18px;}
+.view_but{ text-align:center; margin-bottom:30px;}
+.view_but:hover{opacity:0.6;}
+
+.callusfor_but{ text-align:center; /*margin-top:30px;*/ margin-bottom:40px; transition: all 0.4s ease-in-out 0s;}
+.callusfor_but a:hover{opacity:0.6;}
+.glance{ padding:30px  0px; background:#f5f5f5 url(../images/bg.jpg) no-repeat;background-size:100% auto; background-repeat: no-repeat; background-position: center top; max-width:100%; z-index:999;} 
+.glance_top_title{color: #eab221; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:48px; text-align:center; margin:30px 0px; line-height:50px;}
+.glance_text{ text-align:center; margin:15px 0 50px; color: #666; font-family: Conduit ITC Light,  sans-serif; font-size: 18px; font-style:normal; line-height:25px; } 
+.glance_title{ text-align:center; margin:15px 0 50px; color: #606060; font-family: Conduit ITC Light,  sans-serif; font-style:normal; font-size: 22px; line-height:28px;} 
+.topheight{padding-top:100px;}
+
+/*Start-Footer*/
+.min_footer{ background:#6d6b6a url(../images/footer_bg.png) repeat;}
+.footer_icon{ margin:-34px 0px 20px; text-align:center;}
+.footer_icon1{ margin:-34px 0px 20px; text-align:center;}
+.footer_text{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-style:normal; font-size: 15px; margin:0px 0px 10px; padding-bottom:10px; border-bottom:2px solid #f9f9f9; text-align:center;}
+.footer_info{color: #fff; font-family: Conduit ITC Light,  sans-serif;font-style:normal; font-size: 15px; margin:0px 0px 10px; padding-bottom:28px; border-bottom:2px solid #f9f9f9; text-align:center; line-height:60px;}
+
+ul.locat{ margin:0px; padding:0px;}
+ul.locat li{ list-style-type:none; margin-bottom:5px;}
+ul.locat li a{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-style:normal; font-size: 14px;}
+.circle{color: #fff; font-size:13px; margin-right:7px;}
+.footer_head{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-style:normal !important; font-size: 14px; margin-bottom:10px;}
+.footer_headce{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-style:normal !important; font-size: 14px; margin-bottom:10px; margin-top:38px;}
+.footer_logo{ margin-top:30px;}
+.Sub_let{ max-width:217px;}
+.sublet_text{font-family:Conduit ITC Light !important;font-size:13px !important; color:#6d6b6a !important; margin:0px 0px 10px; border-radius:2px !important; height:24px !important; padding:2px 5px !important; max-width:209px; background-color:#fff; /*float:right;*/ font-style:normal;}
+.sublet_but{border:none; background-color:#fff; padding:5px 8px; color:#6d6b6a;  float:right;}
+ul.foot_sco{ margin:0px; padding:20px 0px; text-align:right;}
+ul.foot_sco li{ display:inline-block; list-style-type:none; margin-right:3px;transition: all 0.3s ease-in-out 0s;}
+ul.foot_sco li:hover{
+    transform: translate(0px, -5px);
+    -webkit-transform: translate(0px, -5px);
+    -moz-transform: translate(0px, -5px);
+    -o-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+}
+/*End-Footer*/
+
+/*Start-Registration*/
+.regi_min{ border:3px solid #ebae1f; border-radius:8px; margin:50px 0px; padding:20px; background-color:#fff;}
+.regis_title{color:#fff; font-family:Conduit ITC Light; font-size:30px; background-color:#ebae1f; padding:10px;margin:0 0 16px -20px; max-width:200px;}
+.regis_subtitle{color:#00a6ca; font-family:Conduit ITC Light; font-size:20px; margin-bottom:16px;}
+.form_text{color:#000; font-family:Conduit ITC Light; font-size:18px; margin:6px 20px 0px 0px; width:118px; float:left;}
+.form_addtext{color:#000; font-family:Conduit ITC Light; font-size:18px; margin:6px 20px 0px 0px; width:209px; float:left;}
+.form_box{float:left;}
+.regis_box{font-family:Conduit ITC Light !important;font-size:13px !important; color:#6d6b6a !important; border-radius:5px !important; height:23px !important; padding:2px 9px !important;border:1px solid #000 !important; margin-top:5px; margin-bottom:12px;}
+.form_botext{color:#000; font-family:Conduit ITC Light; font-size:18px; margin:20px 0px;}
+.form_but{border:none; background-color:#ebaf20; padding:5px 8px; color:#fff; border-radius:5px; margin:10px 0px;}
+
+/*End-Registration*/
+
+/*Start-Review Form*/
+
+.appoint-desk{border: 1px solid #959595 !important; font-weight: normal !important; line-height: 20px !important; padding: 10px 10px 10px 50px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;}
+.appoint-total{border: 1px solid #959595 !important; font-weight: normal !important; line-height: 20px !important; padding: 15px 10px 23px 50px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;}
+
+.appoint-title{border-width:1px 1px 0px 1px !important; border-color:#959595 !important; border-style:solid !important; width:70%;padding: 10px 10px 10px 50px !important; color:#ebaf20; font-family:Conduit ITC Light; font-size:22px;}
+.apply_but{border:none; background-color:#ebaf20; font-size:18px; padding:6px 20px; color:#fff; border-radius:5px; margin:10px 30px 10px 0px;float:right;}
+.applyre_but{border:none; background-color:#ebaf20; font-size:18px; padding:6px 20px; color:#fff; border-radius:5px; margin:10px 14px 10px 0px;float:right;}
+
+.cancel_but{border:1px solid #000; background-color:#fff; font-size:18px; padding:6px 20px;color:#000; border-radius:5px; margin:10px 20px 10px 0px;}
+/*End-Review Form*/
+
+/*start-requisition_page*/
+
+.requisition_page{ background-color:#fff;}
+.requ_min{ background-color:#faefd3; border-top:8px solid #ebae1f; border-radius:8px; padding:10px ; margin-bottom:50px;}
+.requ_box{font-family:Conduit ITC Light !important;font-size:14px !important; color:#a1a1a1 !important; margin-bottom:10px; border-radius:5px !important; height:28px !important; padding:2px 5px !important; max-width:187px;  border:none !important;}
+.requ_text{font-family: Conduit ITC Light ;  font-size:18px ; color:#333; margin-bottom:4px;}
+.requ_butmin{ text-align:center; margin:10px 0px 20px;}
+.requ_but{ font-family: Conduit ITC Light ;  font-size:22px ;  border:none; background-color:#ebae1f; padding:9px 14px; color:#fff; }
+.reqtop_title{color: #000; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 48px; text-align:center; margin:40px 0px 80px; line-height:60px;}
+.reqtop_text{color: #030303; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 20px; line-height:22px; margin-bottom:30px;}
+.reqleft_box{ max-width:200px; display:inline-block; margin:15px;}
+.reqleft_box1{ max-width:260px; display:inline-block; margin:15px;}
+.reqbox_text{ text-align:center; margin:10px 0px 20px; color: #000; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 22px; line-height:28px;}
+.reqleft_min{ max-width:800px; margin:0 auto 50px;}
+
+/*end-requisition_page */
+
+
+/*start-nephila_pricing*/
+
+.nephila_pricing{background:url(../images/deliver_bg.jpg) no-repeat; }
+.basic_box{/*background:url(../images/basic.png) no-repeat;*/ border-radius:25px; padding:0px 0 35px; max-width:298px; border:1px solid #586063; box-shadow:0px 0px 1px 0px #999; margin:0 auto 30px;
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(215,218,222,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(215,218,222,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(215,218,222,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(215,218,222,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(215,218,222,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(215,218,222,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7dade', GradientType=0 );
+
+}
+.month_plan{color:#030303; font-family:Conduit ITC Light, sans-serif; font-size:28px; line-height:35px; border-bottom:1px solid #000; margin:-82px 0px 10px 0px; padding:0 50px 10px 70px; text-align:center;}
+.plan_text{color:#030303; font-family:Conduit ITC Light, sans-serif; font-size:22px; line-height:25px; text-align:center; padding:0 20px 10px 20px;border-bottom:1px solid #000; margin-bottom:10px;}
+.plan_text1{color:#030303; font-family:Conduit ITC Light, sans-serif; font-size:22px; line-height:25px; text-align:center; padding:0 20px 10px 20px; margin-bottom:10px;}
+.plan_botext{color:#02669a; font-family:Conduit ITC Light, sans-serif; font-size:28px; line-height:25px; text-align:center;margin:20px 0px 30px;}
+.top_label{background:url(../images/basic.png) no-repeat; height:257px; margin:-20px 0px 0px -25px;}
+.top_professional{background:url(../images/professional.png) no-repeat; height:257px; margin:-20px 0px 0px -25px; }
+.top_enterprise{background:url(../images/enterprise.png) no-repeat; height:257px; margin:-20px 0px 0px -25px;}
+.nephila_tabing{ background-color:#fff; padding:50px 0px;}
+.top_price1{border-bottom: 1px solid #959595 !important ;border-top:none !important; font-weight: normal !important; line-height: 20px !important; padding:10px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;background-color:#eee;}
+.top_price2{border-bottom: 1px solid #959595 !important ;border-top:none !important; font-weight: normal !important; line-height: 20px !important; padding:10px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;background-color:#e5f6fd;}
+.top_price3{border-bottom: 1px solid #959595 !important ;border-top:none !important; font-weight: normal !important; line-height: 20px !important; padding:10px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;background-color:#fdeded;}
+.top_price4{border-bottom: 1px solid #959595 !important ;border-top:none !important; font-weight: normal !important; line-height: 20px !important; padding:10px !important; vertical-align: top !important; color:#000; font-family:Conduit ITC Light; font-size:18px;background-color:#f3f9eb;}
+.price_gap{ width:10px; padding:0px !important; border:none !important;}
+.priceicon{ float:right;}
+.wach_video{ text-align:center;}
+.five_title{color: #000; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:33px; text-align:center; margin:20px 0px; line-height:30px;}
+.pricing_btitle{color: #222; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:20px; margin-bottom:12px;}
+.pricing_btext{color: #222; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:17px; line-height:22px; margin-bottom:35px; text-align:justify !important}
+.prtab_text{ padding:10px;}
+/*check and radio*/
+fieldset { border: 0; padding-bottom: 9px; }
+label { display: block; cursor: pointer; line-height: 20px; text-shadow: 0 -1px 0 rgba(0,0,0,.2); }
+.radios {padding-top: 0px; background: url(divider.png) repeat-x 0 0; text-align:center;}
+.label_check input,
+.label_radio input { margin-right: 5px; }
+#footer { width: 100%; text-align: center; font-size: 12px; }
+#footer a { padding: 2px 10px; margin: 0 2px; color: #999; background: #ddd; text-decoration: none; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -khtml-border-radius: 10px; }
+#footer a:hover,
+#footer a:focus { color: #fff; background: #333; background: rgba(0,0,0,.3); }
+.copyright{color:#fff; font-family:Conduit ITC Light, sans-serif; font-size:15px; margin-top:30px;}
+.powered{color:#fff; font-family:Conduit ITC Light, sans-serif; font-size:15px; text-align:right;margin-top:30px;}
+.has-js .label_check,
+.has-js .label_radio {}
+.has-js .label_radio {}
+.has-js .label_check { background: url(check-off.png) no-repeat; }
+.has-js label.c_on { background: url(check-on.png) no-repeat; }
+.has-js label.r_on { background:#00adee url(radio-on.png) no-repeat;color:#fff; font-family:Conduit ITC Light, sans-serif; font-size:28px; padding:15px 0px;}
+.has-js .label_check input,
+.has-js .label_radio input { position: absolute; left: -9999px; } 
+.red{ background-color:#ec5553; padding:15px 0px;color:#fff; font-family:Conduit ITC Light, sans-serif; font-size:28px;}
+.green{ background-color:#8dc53e; padding:15px 0px;color:#fff; font-family:Conduit ITC Light, sans-serif; font-size:28px;}
+/*check and radio*/
+
+/*end-nephila_pricing*/
+
+/*Start-Legal Agreement*/
+.leg_title{color:#fff; font-family:Conduit ITC Light; font-size:30px; background-color:#ebae1f; padding:10px;margin:0 0 16px -20px; max-width:230px;}
+
+.leg_subtitle{color:#000; font-family:Conduit ITC Light; font-size:20px; margin-bottom:20px;}
+.leg_text{color:#000; font-family:Conduit ITC Light; font-size:17px; margin-bottom:12px;}
+.leg_notice{color:#000; font-family:Conduit ITC Light; font-size:20px; margin-bottom:20px;}
+.leg_notice a{color:#2e65ff; font-family:Conduit ITC Light; font-size:20px; }
+.leg_notice a:hover{color:#628dff;  }
+.leg_noticetext{color:#000; font-family:Conduit ITC Light; font-size:21px; margin-bottom:20px; line-height:22px;}
+.form_box span{ font-size:12px;}
+
+/*End-Legal Agreement*/
+
+/*Start-Payment Form*/
+.pay_subtitle{color:#000; font-family:Conduit ITC Light; font-size:20px; margin:30px 0 16px;}
+.radio_raound{}
+.radio_text{color:#000; font-family:Conduit ITC Light; font-size:18px; padding:0px 0px 0px 28px; cursor:auto; line-height:16px;}
+.payment{}
+.select_text{color:#000; font-family:Conduit ITC Light; font-size:18px; display:inline-block; margin-right:20px; width:118px;}
+.form_select{ position:relative; display:inline-block; margin:5px 0px 12px 0px; width:372px;}
+.form_select_date{ position:relative; display:inline-block; margin:5px 23px 12px 0px; width:105px;}
+.se_date{ float:left; width:107px;}
+.payment_subtitle{color:#ebaf20; font-family:Conduit ITC Light; font-size:30px; margin:35px 0px 16px;}
+
+/*Start-Select-Form*/
+pre{
+	display:block;
+	font:12px "Courier New", Courier, monospace;
+	padding:10px;
+	border:1px solid #bae2f0;
+	background:#e3f4f9;	
+	margin:.5em 0;
+	width:500px;
+	}		
+
+
+/* */
+
+/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+		position:relative;
+		z-index:10;
+		width:100% !important;
+		height:26px !important;
+		line-height:26px;
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+	position:absolute;
+	bottom:0;
+	float:left;
+	left:0;
+	/*width:166px;*/
+	height:26px;
+	line-height:26px;
+	text-indent:10px;
+	background:url(../images/palygon.png) no-repeat 0 0; background-position:center right;
+	cursor:default;
+	z-index:1;
+	border:1px solid #0b0b0b;
+	border-radius:5px;
+	margin:0px;
+	}
+	
+/* first variation (LABEL is above the SELECT) */	
+form div.variation1 label{display:block;line-height:26px;}
+
+/* second variation (LABEL is placed on the left of the SELECT) */	
+form div.variation2 label{float:left;width:100px;line-height:26px;}
+form div.variation2 span.select{left:100px;}
+/*End-Select-Form*/
+
+
+/*Start-software_page*/
+.videolarge{ width:100%; margin:0 auto;}
+.video{ position:absolute; width:100%; text-align:center;}
+.video-container{ position:relative; min-height:710px;}
+.video-parallax {min-height:710px;}
+.video_top { position:relative; z-index: 99; }
+.one_mean_title{ text-align:center; margin:15px 0 50px; color: #fff; font-family: Conduit ITC Light,  sans-serif; font-style:normal; font-size: 20px; font-weight:400; line-height:28px;} 
+.video_top_title{color: #eab221; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:48px; text-align:center; margin:30px 0px; line-height:50px;}
+.video_text{ text-align:center; margin:15px 0 50px; color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; font-style:normal; line-height:25px; } 
+.what_top_title{color: #eab221; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size:45px; text-align:center; margin:80px 0px 80px; line-height:50px;}
+.what_title{ text-align:center; margin:15px 0 20px; color: #eab221; font-family: Conduit ITC Light,  sans-serif; font-style:normal; font-size: 22px; line-height:28px; text-transform:uppercase; } 
+.what_text{ text-align:center; margin:10px 0px 70px; color: #5e5e5c; font-family: Conduit ITC Light, sans-serif; font-style:normal; font-size: 18px; line-height:28px; padding:0px 30px;}
+
+/*End-software_page*/
+
+/*Start Nephila Customized Pricing*/
+.left_ques{ background-color:#29ace2; margin-bottom:50px; padding:20px;}
+.Pricing_title{ background-color:#29ace2; color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 28px; font-weight:normal !important; padding:25px 30px !important;}
+.price_plan{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; border:none !important; font-weight:normal !important; padding:12px 0px 12px 30px !important;}
+.price{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; border:none !important; font-weight:normal !important; padding:12px 30px 12px 0px !important;}
+.total_title{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; font-weight:normal !important; padding:10px 30px !important; border-top:1px solid #36b0e3 !important; border-bottom:1px solid #36b0e3 !important; margin:10px 0px !important;}
+.total_Pricing{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; font-weight:normal !important; padding:10px 30px 10px 0px !important; border-top:1px solid #36b0e3 !important; border-bottom:1px solid #36b0e3 !important; margin:10px 0px !important;}
+.price_butmin{ text-align:center; margin-top:10px;}
+.pricing_but{ font-family: Conduit ITC Light ;  font-size:35px ;  border:none; background-color:#29ace2; padding:20px 60px; color:#fff; text-transform:uppercase; margin-bottom:20px; }
+
+.left_plan{ background-color:#93d4f0;}
+.ques_title{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 30px; font-weight:normal !important; text-align:center; 
+padding-bottom:20px;}
+.ques_text{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; font-weight:normal !important; text-align:center; line-height:25px;}
+.ques_or{color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 55px; font-weight:normal !important; text-align:center; padding:50px 0;}
+
+.req_but{ margin:20px 0; text-align:center;}
+.req_but a{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 18px; font-weight:normal !important; text-align:center; background-color:#fff; padding:7px 20px;}
+.step1_min{background-color:#93d5f0; margin-bottom:20px;}
+.step1_title{ background-color:#28ace2; padding:20px 0px;color: #fff; font-family: Conduit ITC Light,  sans-serif; font-size: 28px; font-weight:normal !important; text-align:center; line-height:30px;}
+
+.step1_text{color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; font-weight:normal; padding:20px 30px 40px; line-height:25px;}
+.step1_text a{ color:#283891;}
+.step1_box{padding:0px 30px 20px;}
+.text_box{ float:left; color: #606060; font-family: Conduit ITC Light,  sans-serif; font-size: 25px !important; font-weight:normal !important; text-align:center; padding:15px 10px !important; width:140px !important; border:none !important; border-radius:0px !important;}
+.step1_cont{ float:left; color: #707070;font-weight:normal !important; font-family: Conduit ITC Light,  sans-serif; font-size: 25px; margin:15px 0px 0px 40px;}
+.cal_cont{float:left;margin:15px 0px 0px 50px;}
+.cal_cont a{color: #283891;font-weight:normal !important; font-family: Conduit ITC Light,  sans-serif; font-size: 20px; }
+.legal_check{ margin:20px 0px;}
+/*End-Nephila Customized Pricing*/
+
+/*End-Payment Form*/
+/*@media (max-width: 760px) {
+	
+	.requ_box{ width:130px;}
+	.requ_but{ font-size:18px; padding:9px 10px;}
+	.top_enterprise{ margin:-18px 0 0 -22px; background-size:100%; max-width:100%;}
+	.top_professional{ margin:-18px 0 0 -22px; background-size:100%; max-width:100%;}
+	.top_label{ margin:-18px 0 0 -22px; background-size:100%; max-width:100%;}
+}*/
+
+@media (max-width: 1024px) {
+	
+	.slide_but{ margin-top:230px;}
+}
+
+
+
+@media (max-width: 980px) {
+	.slide_but{ display:none;}
+	
+}
+
+@media (max-width: 640px) {
+	.top-header{ position:relative;}
+	.tp-banner-container{ top:0px !important;}
+	.contmin{ top:0px ;}
+	.main-logo{ float:none; margin-bottom:20px; text-align:center;}
+	.min_social{ float:none; text-align:center;}
+	.top-login{ display:block; margin:0 auto; max-width:143px;}
+	.tlogin_but{margin-bottom:20px;}
+	.tlogin_text{ margin:0 0 10px;}
+	.slide_but{ display:none;}
+	.top_title{ font-size:45px; line-height:50px;}
+	.wh_nephila{ line-height:50px;}
+	.wh_nephila a{ font-size:23px;}
+	.the_nephila { line-height:30px;}
+	.the_nephila a{ font-size:23px;}
+	.Sub_let{ max-width:320px;}
+	.footer_icon1{ margin:20px 0px 20px;}
+	.reqleft_box1{max-width:200px;}
+	/*Start-Registration*/
+	.form_text{ float:none;}
+	.form_addtext{ float:none; word-wrap: break-word;}
+	.form_box{ float:none;}
+	.butform{ display:none;}
+	/*End-Registration*/
+	
+	/*Start-Review Form*/
+	.appoint-desk{padding: 10px 10px 10px 20px !important;}
+	.appoint-title{padding: 10px 10px 10px 20px !important;}
+	.apply_but{margin:10px 0px 10px 0px;}
+	.applyre_but{margin:10px 0px 10px 0px;}
+	/*End-Review Form*/
+	
+	/*Start-Payment Form*/
+	
+	.form_select{ display:block; width:auto;}
+	.select_text{ display:block;}
+	/*End-Payment Form*/
+	
+	/*Start-software_page*/
+	.video{ position:relative;}
+	.video_text{ color:#666;}
+	.one_mean_title{ color:#666;}
+	
+	/*End-software_page*/
+}
+
+.scaleIn .rot
+{
+  -webkit-transition: all 0.35s linear;
+  -moz-transition: all 0.35s linear;
+  -ms-transition: all 0.35s linear;
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.fadeUp {
+  -webkit-animation: fadeUp 1s;
+  animation: fadeUp 1s;
+}
+@-webkit-keyframes fadeUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.scale-In {
+  -webkit-animation: scaleIn 1s;
+  animation: scaleIn 1s;
+}
+@-webkit-keyframes scaleIn {
+  0% {
+    -webkit-transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.scale-InOut {
+  -webkit-animation: scaleInOut 1s;
+  animation: scaleIn 1s;
+}
+@-webkit-keyframes scaleInOut {
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes scaleInOut {
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.scaleIn:hover .rot {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  border-color: #4cc3e9;
+}
+
+.hovfade:hover
+{
+  animation-name: scaleInOut;
+  -webkit-animation-name: scaleInOut;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+/*======= Back to top button ======*/
+.back-to-top {
+  display: block;
+  position: fixed;
+  height: 30px;
+  width:30px;
+  bottom: -80px;
+  right: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  border-radius: 3px;
+  z-index: 9999;
+  font-size: 20px;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.back-to-top:hover {
+  background: #4cc3e9;
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
